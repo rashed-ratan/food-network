@@ -1,3 +1,84 @@
+body {
+	margin: 0 auto;
+	font-family: "Poppins", sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-area {
+	float: left;
+	width: 40%;
+	margin-left: 5%;
+	padding-left: 2%;
+}
+
+.common-btn {
+	text-decoration: none;
+	font-size: 25px;
+	background-image: linear-gradient(orange , cyan);
+	padding: 5px 26px;
+	border-radius: 17px;
+	color: white;
+}
+
+.top-right-img{
+	width: 100%;
+	border-radius: 50%;
+}
 h1{
-    color: red;
+    font-size: 50px;
+}
+h1 span{
+    color: orangered;
+}
+p {
+	font-size: 16px;
+	line-height: 2;
+	color: dimgray;
+	text-align: justify;
+}
+.about-section{
+    background-image: url(images/shapes/about-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.half-area img {
+    height: 100%;
+}
+.recipes-section {
+	margin-left: 2%;
+}
+.recipes-section h3{
+    text-align: center;
+}
+.recipes-section p {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.recipies-items {
+	width: 28%;
+	float: left;
+}
+.recipies-items {
+	width: 28.5%;
+	float: left;
+	margin-left: 3%;
+	box-shadow: 5px 10px 40px gray;
+	border-radius: 20px;
+}
+
+.recipies-item-text{
+    width: 100% !important;
+}
+
+.recipies-items img {
+	width: 91%;
+	padding: 25px;
+	border-radius: 10%;
 }
